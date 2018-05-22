@@ -155,3 +155,6 @@ RUN pip install \
   WTForms==2.1 \
   xlrd==1.1.0 \
   xlwt==1.3.0
+
+RUN pip install numpy  --upgrade --ignore-installed
+RUN pip install raven[flask] nose2 coverage
